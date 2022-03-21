@@ -13,12 +13,12 @@ exports.run = async (client, message, args) => {//hamzamertakbaba#3361
     } else {
         const embed = new Discord.MessageEmbed()
             .setColor("BLURPLE")
-            .setTitle("Rising Network")
-            .addField(`<:risingnetwork:925348747427328010> Sunucu IP Adresi`, `play.risingnetwork.xyz`, true)
-            .addField(`<:risingnetwork:925348747427328010> Ping`, Data.ping, true)
-            .addField(`<:risingnetwork:925348747427328010> Oyuncu Sayısı`, `${Data.players}/${Data.max_players}`, true)
-            .addField(`<:risingnetwork:925348747427328010> Versiyon`, Data.version, true)
-            .setImage(`http://status.mclive.eu/KAbot/play.risingnetwork.xyz/25565/banner.png`)
+            .setTitle("lenoscraft.denince.biz")
+            .addField(`Sunucu IP Adresi`, `play.risingnetwork.xyz`, true)
+            .addField(`Ping`, Data.ping, true)
+            .addField(`Oyuncu Sayısı`, `${Data.players}/${Data.max_players}`, true)
+            .addField(`Versiyon`, Data.version, true)
+            .setImage(`http://status.mclive.eu/KAbot/play.lenoscraft.xyz/25565/banner.png`)
         message.channel.send(embed)
     }
 
@@ -26,7 +26,7 @@ exports.run = async (client, message, args) => {//hamzamertakbaba#3361
 exports.conf = {// codare ♥
     enabled: true,
     guildOnly: false,
-    aliases: ["risingnw", "risingnetwork"],
+    aliases: ["lenoscraft", "lc"],
     permLevel: 0
 };
 exports.help = {// codare ♥
