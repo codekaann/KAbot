@@ -16,9 +16,9 @@ exports.run = async (app, message, client) => {
    const only = new Discord.MessageEmbed()
   
    .setColor("RANDOM")
-            .setTitle("Rising Network")
-            .addField(`<:risingnetwork:925348747427328010> Sunucu IP Adresi`, `play.risingnetwork.xyz`, true)
-            .setImage(`http://status.mclive.eu/KAbot/play.risingnetwork.xyz/25565/banner.png`)
+            .setTitle("lenoscraft.denince.biz")
+            .addField(`Sunucu IP Adresi`, `play.risingnetwork.xyz`, true)
+            .setImage(`http://status.mclive.eu/KAbot/play.lenoscraft.xyz/25565/banner.png`)
    
     mesaj.edit(only);
    
@@ -32,12 +32,12 @@ exports.run = async (app, message, client) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['durum', 'risingdurum'],
+  aliases: ['durum', 'lcdurum'],
   permLevel: 0
 };
 
 exports.help = {
   name: 'sunucudurum',
-  description: 'Skorsky',
+  description: 'r3linex',
   usage: 'ping'
 };
